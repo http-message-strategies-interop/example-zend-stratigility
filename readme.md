@@ -12,7 +12,7 @@ $ xdg-open http://localhost:8000/hello/world
 
 ## Related
 
-* [HTTP Message Strategies PSR (pre-Draft)](https://github.com/http-message-strategies-interop/http-message-strategies/tree/http-message-strategies/proposed/http-message-strategies)
+* [HTTP Message Strategies PSR (pre-Draft)](https://github.com/http-message-strategies-interop/fig-standards/tree/http-message-strategies/proposed/http-message-strategies)
 
 ## License
 
