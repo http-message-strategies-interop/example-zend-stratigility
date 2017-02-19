@@ -1,0 +1,54 @@
+{
+    "name": "http-message-strategies-interop/example-stratigility-http-message-strategies",
+    "description": "Stratigility Example of HTTP Message Strategies PSR",
+    "keywords": [
+        "psr",
+        "psr-7",
+        "http",
+        "http-message",
+        "request",
+        "response",
+        "strategies",
+        "example"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Mayer",
+            "email": "michael@schnittstabil.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Interop\\Http\\Message\\Strategies\\Examples\\Stratigility\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Interop\\Http\\Message\\Strategies\\Examples\\Stratigility\\": "tests"
+        }
+    },
+    "require": {
+        "http-message-strategies-interop/http-message-strategies": "^0.1",
+        "zendframework/zend-stratigility": "^2.0",
+        "zendframework/zend-diactoros": "^1.3"
+    },
+    "require-dev": {
+        "schnittstabil/phpunit-starter": "^6.0"
+    },
+    "scripts": {
+        "build": "php ./bin/build.php",
+        "clean": "rm -rf build/ src/* .php_cs.cache",
+        "lint": [
+            "sugared-rim-cs"
+        ],
+        "test": [
+            "@travis",
+            "@lint"
+        ],
+        "travis": [
+            "php index.php",
+            "schnittstabil-phpunit-starter"
+        ]
+    }
+}
