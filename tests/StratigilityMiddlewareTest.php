@@ -3,15 +3,15 @@
 namespace Interop\Http\Message\Strategies\Examples\Stratigility;
 
 use Interop\Http\Message\Strategies\Examples\Stratigility\Helpers\ResponseFactory;
-use Interop\Http\Message\Strategies\ServerRequestResponseInterface;
+use Interop\Http\Message\Strategies\ServerRequestHandlerInterface;
 use Zend\Diactoros\ServerRequest;
 
 class StratigilityMiddlewareTest extends \PHPUnit\Framework\TestCase
 {
-    public function testStratigilityMiddlewareShouldImplementsServerRequestResponseInterface()
+    public function testStratigilityMiddlewareShouldImplementsServerRequestHandlerInterface()
     {
         $this->assertInstanceOf(
-            ServerRequestResponseInterface::class,
+            ServerRequestHandlerInterface::class,
             new StratigilityMiddleware(new ResponseFactory())
         );
     }
