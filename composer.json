@@ -32,9 +32,10 @@
         "sort-packages": true
     },
     "require": {
+        "http-interop/http-factory": "^0.2",
         "http-message-strategies-interop/http-message-strategies": "^0.1",
-        "zendframework/zend-stratigility": "^2.0",
-        "zendframework/zend-diactoros": "^1.3"
+        "zendframework/zend-diactoros": "^1.3",
+        "zendframework/zend-stratigility": "^2.0"
     },
     "require-dev": {
         "schnittstabil/phpunit-starter": "^6.0"
