@@ -1,4 +1,4 @@
-# Stratigility Example of HTTP Message Strategies PSR (pre-Draft) [![Build Status](https://travis-ci.org/http-message-strategies-interop/example-zend-stratigility.svg?branch=master)](https://travis-ci.org/http-message-strategies-interop/example-zend-stratigility)
+# Stratigility Example of HTTP Message Strategies PSR (pre-Draft) [![Build Status](https://travis-ci.org/http-message-strategies-interop/example-zend-stratigility.svg?branch=master)](https://travis-ci.org/http-message-strategies-interop/example-zend-stratigility) [![Coverage Status](https://coveralls.io/repos/github/http-message-strategies-interop/example-zend-stratigility/badge.svg?branch=master)](https://coveralls.io/github/http-message-strategies-interop/example-zend-stratigility?branch=master)
 
 ## Usage
 
