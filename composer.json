@@ -28,6 +28,9 @@
             "Interop\\Http\\Message\\Strategies\\Examples\\Stratigility\\": "tests"
         }
     },
+    "config": {
+        "sort-packages": true
+    },
     "require": {
         "http-message-strategies-interop/http-message-strategies": "^0.1",
         "zendframework/zend-stratigility": "^2.0",
