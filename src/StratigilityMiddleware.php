@@ -2,13 +2,13 @@
 
 namespace Interop\Http\Message\Strategies\Examples\Stratigility;
 
-use Interop\Http\Message\Strategies\ServerRequestHandlerInterface;
+use Interop\Http\Message\Strategies\ServerActionInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Zend\Diactoros\Response;
 use Zend\Stratigility\MiddlewareInterface;
 
-class StratigilityMiddleware implements ServerRequestHandlerInterface, MiddlewareInterface
+class StratigilityMiddleware implements ServerActionInterface, MiddlewareInterface
 {
     /**
      * Process a server request and return the produced response.
